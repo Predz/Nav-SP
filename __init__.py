@@ -61,7 +61,7 @@ class Nav:
     Reads a source engine navigvation file. Retrieving data
     on hiding spots, walkable areas, and ladders.
 
-    :param str file_path:
+    :param str path:
         Path to the navigation file to process.
     :raise ValueError:
         Raised if the file location cannot be found.
